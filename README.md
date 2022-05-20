@@ -23,6 +23,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 4. Adjusted R-Squared
  
 # Model Summary
+<table>
 +-------+------------------------+--------------------+--------------------+--------------------+--------------------+
 | SL NO |       MODEL_NAME       |      Test MSE      |     Test RMSE      |      Test R^2      | Test Adjusted R^2  |
 +-------+------------------------+--------------------+--------------------+--------------------+--------------------+
@@ -35,6 +36,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 |   7   |     Gradient Boost     | 13.48411102400463  | 3.6720717618266434 | 0.9125437812596556 | 0.9117372685796294 |
 |   8   |        Xg Boost        | 19.37511776720657  | 4.401717592850156  | 0.8743354653078561 | 0.8731765992818767 |
 +-------+------------------------+--------------------+--------------------+--------------------+--------------------+
+</table>
 
 # Conclusions:
 
