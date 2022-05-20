@@ -23,7 +23,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 4. Adjusted R-Squared
  
 # Model Summary
-![image](https://user-images.githubusercontent.com/46549606/169467392-4275d4fc-5774-40a8-9681-6baa8e761147.png)
+![image](https://user-images.githubusercontent.com/46549606/169467592-fbb2e6d8-2489-48bb-944a-e48c99a0e71f.png)
 
 
 # Conclusions:
