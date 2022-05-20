@@ -21,7 +21,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 2. Root Mean Squared Error
 3. R-Squared
 4. Adjusted R-Squared
-5. 
+ 
 # Model Summary
 +-------+------------------------+--------------------+--------------------+--------------------+--------------------+
 | SL NO |       MODEL_NAME       |      Test MSE      |     Test RMSE      |      Test R^2      | Test Adjusted R^2  |
