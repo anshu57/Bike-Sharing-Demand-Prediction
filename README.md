@@ -23,7 +23,8 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 4. Adjusted R-Squared
  
 # Model Summary
-![image](https://user-images.githubusercontent.com/46549606/169467592-fbb2e6d8-2489-48bb-944a-e48c99a0e71f.png)
+![image](https://user-images.githubusercontent.com/46549606/169807851-2e81d6f0-798b-469b-a3f2-4118b31ddd74.png)
+
 
 
 # Conclusions:
@@ -32,10 +33,11 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 * There was sharp increase in demand from the end of 2017 that too in winter season of the year. The demand however decrease at the end of 2018.
 * Bike count rent is highly correlated with 'Hour', which seems obvious. Demand for bike is mostly in morning (7 to 8) and in the evening (3 to 9).
 * After doing exploratory data analysis, applying Linear Regression model didn't go quite well as it gave only 67.109325% accuracy.
-* Lasso and Ridge Regression helps to reduce model complexity and prevent over-fitting which may result from simple linear regression. with Lasso, ridge and ElsasticNet regressor We got r squared value of 0.67106525, 0.67109331, 0.67109188 respectively.
+* Lasso and Ridge Regression helps to reduce model complexity and prevent over-fitting which may result from simple linear regression. with Lasso, ridge and       ElasticNet regressor We got r squared value of 0.67106525, 0.67109331, 0.67109188 respectively.
 * With Decision Tree we are able to achieve the r2 score of 0.811.
 * Random forest regressor gave r squared value of 0.911 on test data.
 * Gradient Boost gives higher value of R squared metric in train data 0.947 and on test data it is 0.912
-* XG Boost gave r squared value of 0.874
-* Gradient Boost came with best accuracy to approximate numbers of rented bikes demand. It gives amazing results of training r-square at 0.94 and test r-square value at 0.912 also with adjusted r-square with 0.911.
+* XG Boost gave r squared value of 0.9164
+* XG Boost came with best accuracy to approximate numbers of rented bikes demand. It gives amazing results of training r-square at 0.97 and test r-square value at 0.9164 also with adjusted r-square with 0.911.
+
 
