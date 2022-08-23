@@ -4,8 +4,9 @@
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
 
 # Steps Involved
-* Importing libraries
 * Exploratory Data Analysis
+![image](https://user-images.githubusercontent.com/46549606/186166437-7f4038a2-8b4a-4a23-8cdd-196a65a96516.png)
+
 * Extracting features from date
 * Model Building
 1. Linear Regression
@@ -39,5 +40,8 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 * Gradient Boost gives higher value of R squared metric in train data 0.947 and on test data it is 0.912
 * XG Boost gave r squared value of 0.9164
 * XG Boost came with best accuracy to approximate numbers of rented bikes demand. It gives amazing results of training r-square at 0.97 and test r-square value at 0.9164 also with adjusted r-square with 0.911.
+
+# Next Step :
+Implementing the model on production will give us a prediction of exact number of bikes to be placed so as to met demand, for peek hours there can be over prediction which will eventually not a problem but during the least demand hours the underprediction could be an issue , solving this would make the model ready for production.
 
 
